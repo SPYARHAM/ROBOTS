@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family:sans-serif;
+  background: linear-gradient(to right, #59c1eb9f, #1115ee75);
+  
+}
+
+.container {
+  background-color:  rgb(93, 226, 93);
+  float: left;
+  border: 2px solid green;
+  width: 230px;
+  height: 290px;
+  padding: 4px;
+  margin: 13px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row-reverse;
+  transition: all 1s;
+  box-shadow: 6px 6px 5px #888888;
+  background: linear-gradient(90deg, #e3ffe7 0%, #c4d5f3 100%);
+}
+
+.container-2 {
+  margin-left: 180px;
+  margin-top: 25px;
+}
+
+div .font {
+   font-size: 16px;
+   text-align: center;
+   color: #0206077c;
+   font-style: italic;
+ }
+
+ @font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'),  format('woff');
+  }
+ 
+h1 {
+  padding-top: 20px;
+  color: #7108eb8e;
+  font-family: 'SEGA LOGO FONT';
+  margin-left: 10px;
+  font-size: 3.5em;
+  /* box-shadow: 6px 6px 5px #888888;  */
+  
+}
+
+input {
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  background: linear-gradient(90deg, #e3ffe7 0%, #c4d5f3 100%);
+  margin-bottom: 10px;
+}
+
+.container:hover {
+  transform : scale(1.1)
+}
+div .container img {
+  height: 170px;
+}
+
+
+ 
+
